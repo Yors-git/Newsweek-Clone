@@ -7,10 +7,16 @@
 
 body {
     height: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 .nav {
-    background-color: red;
+    background-color:rgb(250, 34, 15);
 }
 
 .nw-logo {
@@ -19,7 +25,6 @@ body {
 }
 
 .nav-item img {
-    display: flex;
     justify-content: center;
 }
 
@@ -29,10 +34,31 @@ body {
 }
 
 .weather-link {
-  display: flex;
-  flex-direction: row;
-  padding: 5px 0;
-  color: #FFF;
-  font-size: 0.9rem;
-  font-weight: 800;
+    flex-direction: row;
+    padding: 5px 0;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 0.625rem;
+}
+
+.weather-link:hover {
+    color: #FFF;
+}
+
+.weather-date {
+    color: white;
+}
+
+.subscribe-btn {
+    height: 30px;
+    width: auto;
+    background-color:rgb(255, 228, 45);
+    border-radius: 20px;
+}
+
+.right-nav {
+    align-self: flex-end;
+    padding-bottom: 7px;
 }
