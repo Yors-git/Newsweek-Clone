@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -52,13 +52,19 @@ body {
 }
 
 .subscribe-btn {
-    height: 30px;
-    width: auto;
     background-color:rgb(255, 228, 45);
     border-radius: 20px;
+    margin: 8px 14px 8px 10px;
+    padding: 0px 15px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .right-nav {
     align-self: flex-end;
     padding-bottom: 7px;
+}
+
+.right-arrow {
+    color: #000;
 }
