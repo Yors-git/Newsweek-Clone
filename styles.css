@@ -73,13 +73,17 @@ body {
     font-weight: 700;
 }
 
+.white-nav {
+    padding: 5px 0;
+}
+
 .white-nav-ul {
     font-weight: 700;
     
 }
 
 .white-nav-ul li {
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(217, 217, 217);
 }
 
 .white-nav-ul li:nth-child(1) {
@@ -98,8 +102,8 @@ body {
     border: none;
 }
 
-.bg-light {
-    padding: 10px 0px;
+.nav-padding {
+    padding: 0;
 }
 
 .grey-nav {
