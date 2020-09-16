@@ -16,11 +16,11 @@ body {
 }
 
 .nav {
-    background-color:rgb(250, 34, 15);
+    background-color: rgb(250, 34, 15);
 }
 
 .nw-logo {
-    width: 45%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -47,24 +47,52 @@ body {
     color: #FFF;
 }
 
-.weather-date {
-    color: white;
+.link-color {
+    color: #FFF;
 }
 
 .subscribe-btn {
-    background-color:rgb(255, 228, 45);
+    background-color: rgb(255, 228, 45);
     border-radius: 20px;
-    margin: 8px 14px 8px 10px;
+    margin: 8px 0;
     padding: 0px 15px;
     font-weight: 700;
     font-size: 18px;
 }
 
 .right-nav {
-    align-self: flex-end;
-    padding-bottom: 7px;
+    align-items: flex-end;
+    padding-bottom: 10px;
 }
 
 .right-arrow {
     color: #000;
+}
+
+.right-nav a {
+    font-weight: 700;
+}
+
+.white-nav-ul {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.white-nav-ul li {
+    border-left: 1px solid gray;
+}
+
+.white-nav-ul li:nth-child(1) {
+    border-left: none;
+}
+
+.white-nav-ul a {
+    height: auto;
+    padding: 0;
+}
+
+.nav-input {
+    max-width: 87px;
+    height: auto;
+    border: none;
 }
