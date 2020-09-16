@@ -75,7 +75,7 @@ body {
 
 .white-nav-ul {
     font-weight: 700;
-    font-size: 17px;
+    
 }
 
 .white-nav-ul li {
@@ -89,10 +89,31 @@ body {
 .white-nav-ul a {
     height: auto;
     padding: 0;
+    font-size: 17px;
 }
 
 .nav-input {
     max-width: 87px;
     height: auto;
     border: none;
+}
+
+.bg-light {
+    padding: 10px 0px;
+}
+
+.grey-nav {
+    width: 100%;
+    border-top: 1px solid rgb(244, 245, 246);
+    border-bottom: 1px solid rgb(244, 245, 246);
+}
+
+.grey-nav li {
+    padding-left: 11px;
+}
+
+.grey-nav a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #807F84;
 }
