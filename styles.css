@@ -22,3 +22,17 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.nav-img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.weather-link {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+  color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
