@@ -19,9 +19,16 @@ body {
     background-color: rgb(250, 34, 15);
 }
 
-.nw-logo {
+.red-nav {
+    align-items: center;
+}
+
+.nw-logo-big {
     max-width: 400px;
-    margin: 0 auto;
+}
+
+.nw-logo-small {
+    max-width: 150px;
 }
 
 .nav-item img {
@@ -61,8 +68,9 @@ body {
 }
 
 .right-nav {
-    align-items: flex-end;
-    padding-bottom: 10px;
+    align-self: flex-end;
+    padding: 4px 20px;
+    align-items: baseline;
 }
 
 .right-arrow {
