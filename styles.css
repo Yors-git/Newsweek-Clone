@@ -147,6 +147,7 @@ body {
 
 .card {
     border: none;
+    padding-top: 10px;
 }
 
 .card-img-top {
