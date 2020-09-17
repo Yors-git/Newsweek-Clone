@@ -160,6 +160,13 @@ body {
 
 .card-title {
     font-size: 24px;
+    line-height: 0.9;
+    display: block;
+}
+
+.card-title a {
+    font-size: 16px;
+    color: rgba(3, 3, 3, .4);
 }
 
 .card-text {
@@ -230,8 +237,7 @@ body {
     top: 44.5%;
 }
 
-
-
-.col-3 {
-    max-width: 29%;
+.center-col-ul li {
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-top: 15px;
 }
