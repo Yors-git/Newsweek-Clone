@@ -135,6 +135,10 @@ body {
 }
 
 /* Main Articles */
+.section1 {
+    margin-bottom: 50px;
+}
+
 .container-fluid {
     padding: 20px 20px;
 }
@@ -285,12 +289,36 @@ body {
 }
 
 .n-red-icon {
-  height: 28px;
-  width: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    height: 28px;
+    width: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.third-col-width {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+/* In the Magazine Section */
+.section2 {
+    padding-top: 10px
+}
+
+.in-the-magazine-h3 {
+    width: 100%;
+    font-size: 19px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    justify-content: center;
+}
+
+.margin-h5 {
+    margin: 0;
 }
 
 .magazine-img {
-  background-image: url(./assets/images/cover-pandemic-money-graphic.jpg) center/contain no-repeat #f72210;
-  width: 100%;
+    background: url(assets/images/cover-pandemic-money-graphic.jpg) center no-repeat #f72210;
+    background-size: cover;
+    width: 100%;
+    height: 55%;
 }
