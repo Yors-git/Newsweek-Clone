@@ -1,324 +1,394 @@
 /* CSS Reset */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-    height: 100%;
-    max-width: 1310px;
-    margin: 0 auto;
+  height: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 /* Nav Styles */
 
 .nav {
-    background-color: rgb(250, 34, 15);
+  background-color: rgb(250, 34, 15);
 }
 
 .red-nav {
-    align-items: center;
+  align-items: center;
 }
 
 .nw-logo-big {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .nw-logo-small {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 .nav-item img {
-    justify-content: center;
+  justify-content: center;
 }
 
 .nav-img {
-    width: 25px;
-    margin-right: 10px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .weather-link {
-    flex-direction: row;
-    padding: 5px 0;
-    color: #FFF;
-    font-size: 0.9rem;
-    font-weight: 800;
-    align-items: center;
-    margin-top: 0.625rem;
+  flex-direction: row;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  align-items: center;
+  margin-top: 0.625rem;
 }
 
 .weather-link:hover {
-    color: #FFF;
+  color: #fff;
 }
 
 .link-color {
-    color: #FFF;
+  color: #fff;
 }
 
 .subscribe-btn {
-    background-color: rgb(255, 228, 45);
-    border-radius: 20px;
-    margin: 8px 0;
-    padding: 0px 15px;
-    font-weight: 700;
-    font-size: 18px;
+  background-color: rgb(255, 228, 45);
+  border-radius: 20px;
+  margin: 8px 0;
+  padding: 0px 15px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .right-nav {
-    align-self: flex-end;
-    padding: 4px 20px;
-    align-items: baseline;
+  align-self: flex-end;
+  padding: 4px 20px;
+  align-items: baseline;
 }
 
 .right-arrow {
-    color: #000;
+  color: #000;
 }
 
 .right-nav a {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .white-nav {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 .white-nav-ul {
-    font-weight: 700;
-
+  font-weight: 700;
 }
 
 .white-nav-ul li {
-    border-left: 1px solid rgb(217, 217, 217);
+  border-left: 1px solid rgb(217, 217, 217);
 }
 
 .white-nav-ul li:nth-child(1) {
-    border-left: none;
+  border-left: none;
 }
 
 .white-nav-ul a {
-    height: auto;
-    padding: 0;
-    font-size: 17px;
+  height: auto;
+  padding: 0;
+  font-size: 17px;
 }
 
 .nav-input {
-    max-width: 87px;
-    height: auto;
-    border: none;
+  max-width: 87px;
+  height: auto;
+  border: none;
 }
 
 .nav-padding {
-    padding: 0;
+  padding: 0;
 }
 
 .grey-nav {
-    width: 100%;
-    border-top: 1px solid rgb(244, 245, 246);
-    border-bottom: 1px solid rgb(244, 245, 246);
+  width: 100%;
+  border-top: 1px solid rgb(244, 245, 246);
+  border-bottom: 1px solid rgb(244, 245, 246);
 }
 
 .grey-nav li {
-    padding-left: 11px;
+  padding-left: 11px;
 }
 
 .grey-nav a {
-    font-size: 16px;
-    font-weight: 700;
-    color: #807F84;
+  font-size: 16px;
+  font-weight: 700;
+  color: #807f84;
 }
 
 /* Main Articles */
 .section1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .container-fluid {
-    padding: 20px 20px;
+  padding: 20px 20px;
 }
 
 .main-titles {
-    font-size: 16px;
-    font-weight: 700;
-    color: rgba(3, 3, 3, .4);
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3, 3, 3, .4);
 }
 
 .card {
-    border: none;
-    padding-top: 20px;
+  border: none;
+  padding-top: 20px;
 }
 
 .card-img-top {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .card-body {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .card-title {
-    font-size: 24px;
-    line-height: 0.9;
-    display: block;
+  font-size: 24px;
+  line-height: 0.9;
+  display: block;
 }
 
 .card-title a {
-    font-size: 16px;
-    color: rgba(3, 3, 3, .4);
+  font-size: 16px;
+  color: rgba(3, 3, 3, .4);
 }
 
 .card-text {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .font-w-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .media-img {
-    width: 63px;
+  width: 63px;
 }
 
 .debate {
-    border-top: 3px solid rgb(217, 217, 217);
-    border-bottom: 3px solid rgb(217, 217, 217);
+  border-top: 3px solid rgb(217, 217, 217);
+  border-bottom: 3px solid rgb(217, 217, 217);
 }
 
 .media-body h5 {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .media-body p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .debate .media {
-    padding: 13px 0;
+  padding: 13px 0;
 }
 
 .vs {
-    position: relative;
-    z-index: 1;
-    width: 32px;
-    height: 32px;
-    background-color: #000;
-    color: #d6d6d6;
-    border-radius: 50%;
-    font: bold 14px/32px "Roboto Condensed", sans-serif;
-    text-align: center;
-    margin: 6px auto;
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 .vs-lines {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
-
 
 .vs-lines::before,
 .vs-lines::after {
-    content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .vs-lines::before {
-    top: 50%;
+  top: 50%;
 }
 
 .vs-lines::after {
-    top: 44.5%;
+  top: 44.5%;
 }
 
 .center-col-ul li {
-    border-top: 1px solid rgb(238, 238, 238);
-    padding-top: 15px;
+  border-top: 1px solid rgb(238, 238, 238);
+  padding-top: 15px;
 }
 
 .color-paragraph {
-    color: rgb(85, 85, 85);
-    margin-top: 6px;
+  color: rgb(85, 85, 85);
+  margin-top: 6px;
 }
 
 .opinion-h4 {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .center-col-ul .first-li {
-    border-top: 0;
-    padding-top: 5px;
+  border-top: 0;
+  padding-top: 5px;
 }
 
 .third-col-card-body {
-    border: 1px solid rgb(230, 230, 230);
-    padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 20px;
 }
 
 .col-3-form {
-    background-color: rgb(244, 245, 246);
-    margin: 0 auto 30px;
-    border: 1px solid #e5e5e5;
-    padding: 20px;
-    height: auto;
-    margin-top: 20px;
+  background-color: rgb(244, 245, 246);
+  margin: 20px auto 30px;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  height: auto;
+  max-width: 300px;
 }
 
 .col-3-form h5 {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 .free-sign-up {
-    width: 100%;
-    height: 32px;
-    background-color: #f61602;
-    color: #FFF;
-    border-radius: 3px;
-    line-height: 1;
-    margin-top: -3px;
+  width: 100%;
+  height: 32px;
+  background-color: #f61602;
+  color: #fff;
+  border-radius: 3px;
+  line-height: 1;
+  margin-top: -3px;
 }
 
 .n-red-icon {
-    height: 28px;
-    width: 28px;
-    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 28px;
+  width: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
 }
 
-.third-col-width {
-    max-width: 330px;
-    margin: 0 auto;
+.third-col-center {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 50px;
 }
 
 /* In the Magazine Section */
 .section2 {
-    padding-top: 10px
+  padding-top: 10px;
 }
 
-.in-the-magazine-h3 {
-    width: 100%;
-    font-size: 19px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(217, 217, 217);
-    justify-content: center;
+.in-the-magazine-title {
+  width: 100%;
+  font-size: 19px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  justify-content: center;
 }
 
-.margin-h5 {
-    margin: 0;
+.in-the-magazine-title h5 {
+  margin: 0;
+}
+
+.in-the-mag-sub {
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(244, 245, 246);
+  padding: 10px;
+}
+
+.in-the-mag-card-sub {
+  font-size: 16px;
+  background-color: #f72210;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 8px;
+}
+
+.in-the-mag-section a {
+  color: #f72210;
+}
+
+.in-the-mag-title a {
+  color: black;
+}
+
+.in-the-mag-img1 {
+  background: url(assets/images/fe-vaccines-banner.jpg) center no-repeat;
+}
+
+.in-the-mag-img2 {
+  background: url(assets/images/anthony-fauci-washington-dc-getty.jpg) center
+    no-repeat;
+}
+
+.in-the-mag-img3 {
+  background: url(assets/images/florida-representative-donna-shalala.jpg) center
+    no-repeat;
+}
+
+.in-the-mag-img4 {
+  background: url(assets/images/per-young-conservatives-01-142740014jpg.jpg)
+    center no-repeat;
+}
+
+.in-the-mag-img5 {
+  background: url(assets/images/cul-ps-janelle-monae.jpg) center no-repeat;
+}
+
+.in-the-mag-img6 {
+  background: url(assets/images/we-were-warned.jpg) center no-repeat;
 }
 
 .magazine-img {
-    background: url(assets/images/cover-pandemic-money-graphic.jpg) center no-repeat #f72210;
-    background-size: cover;
-    width: 100%;
-    height: 55%;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 67%;
+}
+
+@media screen and (min-width: 768px) {
+  .in-the-mag-title a {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .magazine-img {
+    padding-bottom: 100%;
+  }
+}
+/* Section 3 Editors Pick */
+.section3 {
+    margin-top: 20px;
+    padding: 0;
 }
