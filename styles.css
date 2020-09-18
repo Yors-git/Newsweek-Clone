@@ -66,7 +66,7 @@ body {
   background-color: rgb(255, 228, 45);
   border-radius: 20px;
   margin: 8px 0;
-  padding: 0px 15px;
+  padding: 0 15px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -97,6 +97,15 @@ body {
   border-left: 1px solid rgb(217, 217, 217);
 }
 
+.grey-nav li {
+  padding-left: 11px;
+}
+
+.center-col-ul li {
+  border-top: 1px solid rgb(238, 238, 238);
+  padding-top: 15px;
+}
+
 .white-nav-ul li:nth-child(1) {
   border-left: none;
 }
@@ -123,10 +132,6 @@ body {
   border-bottom: 1px solid rgb(244, 245, 246);
 }
 
-.grey-nav li {
-  padding-left: 11px;
-}
-
 .grey-nav a {
   font-size: 16px;
   font-weight: 700;
@@ -145,7 +150,7 @@ body {
 .main-titles {
   font-size: 16px;
   font-weight: 700;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .card {
@@ -169,7 +174,7 @@ body {
 
 .card-title a {
   font-size: 16px;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .card-text {
@@ -260,11 +265,6 @@ body {
   top: 44.5%;
 }
 
-.center-col-ul li {
-  border-top: 1px solid rgb(238, 238, 238);
-  padding-top: 15px;
-}
-
 .color-paragraph {
   color: rgb(85, 85, 85);
   margin-top: 6px;
@@ -310,8 +310,9 @@ body {
 .n-red-icon {
   height: 28px;
   width: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain;
+  background-repeat: no-repeat;
+  background-color: #f72210;
 }
 
 .third-col-center {
@@ -326,6 +327,7 @@ body {
 }
 
 /* In the Magazine Section */
+
 .section2 {
   padding-top: 10px;
 }
@@ -365,31 +367,38 @@ body {
   color: black;
 }
 
+.in-the-mag-img1,
+.in-the-mag-img2,
+.in-the-mag-img3,
+.in-the-mag-img4,
+.in-the-mag-img5,
+.in-the-mag-img6 {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .in-the-mag-img1 {
-  background: url(assets/images/fe-vaccines-banner.jpg) center no-repeat;
+  background: url(assets/images/fe-vaccines-banner.jpg);
 }
 
 .in-the-mag-img2 {
-  background: url(assets/images/anthony-fauci-washington-dc-getty.jpg) center
-    no-repeat;
+  background: url(assets/images/anthony-fauci-washington-dc-getty.jpg);
 }
 
 .in-the-mag-img3 {
-  background: url(assets/images/florida-representative-donna-shalala.jpg) center
-    no-repeat;
+  background: url(assets/images/florida-representative-donna-shalala.jpg);
 }
 
 .in-the-mag-img4 {
-  background: url(assets/images/per-young-conservatives-01-142740014jpg.jpg)
-    center no-repeat;
+  background: url(assets/images/per-young-conservatives-01-142740014jpg.jpg);
 }
 
 .in-the-mag-img5 {
-  background: url(assets/images/cul-ps-janelle-monae.jpg) center no-repeat;
+  background: url(assets/images/cul-ps-janelle-monae.jpg);
 }
 
 .in-the-mag-img6 {
-  background: url(assets/images/we-were-warned.jpg) center no-repeat;
+  background: url(assets/images/we-were-warned.jpg);
 }
 
 .magazine-img {
@@ -408,19 +417,21 @@ body {
     padding-bottom: 100%;
   }
 }
+
 /* Section 3 Editors Pick */
+
 .section3 {
-    margin-top: 20px;
-    padding: 0;
+  margin-top: 20px;
+  padding: 0;
 }
 
 .eds-pick-title a {
-    font-size: 24px;
-    color: black;
+  font-size: 24px;
+  color: black;
 }
 
 .eds-pick-text {
-    color: #333333;
+  color: #333;
 }
 
 .section-4 {
