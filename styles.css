@@ -181,6 +181,27 @@ body {
   font-weight: 700;
 }
 
+.wrap {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+}
+
+.category {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px 15px 9px;
+  color: #f61602;
+  background-color: rgb(255, 255, 255);
+}
+
+.category a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .media-img {
   width: 63px;
 }
@@ -400,4 +421,21 @@ body {
 
 .eds-pick-text {
     color: #333333;
+}
+
+.section-4 {
+  border-top: 1px solid rgb(236, 236, 236);
+  padding-top: 20px;
+}
+
+.img-width {
+  max-width: 23%;
+}
+
+.red-heading {
+  color: red;
+}
+
+.last-ul-padding {
+  padding-top: 20px;
 }

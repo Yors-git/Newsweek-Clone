@@ -2,728 +2,1112 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Newsweek</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Newsweek</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav red-nav justify-content-lg-around justify-content-md-between">
-                <li class="nav-item d-none d-lg-block">
-                    <a class="nav-link active weather-link flex" href="">
-                        <img src="./assets/images/30.png" alt="weather image" class="nav-img flex">
-                        <span>29 Bucharest, RO &nbsp;&nbsp;</span>
-                        <img src="./assets/images/ic-white-arrow.png" alt="right arrow" class="flex">
-                    </a>
-                    <p class="weather-date link-color">Tue, Sep 15, 2020</p>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <img class="nw-logo-big d-none d-lg-block" src="./assets/images/Newsweek-logo.png" alt="logo">
-                        <img class="nw-logo-small d-md-block d-lg-none" src="./assets/images/Newsweek-logo.png"
-                            alt="logo">
-                    </a>
-                </li>
-                <li class="nav-item right-nav flex">
-                    <a class="nav-link link-color" href="#">LOGIN</a>
-                    <button class="btn subscribe-btn" type="submit">SUBSCRIBE &nbsp;<i
-                            class="fa fa-angle-right"></i></button>
-                </li>
-            </ul>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-light white-nav">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav white-nav-ul">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">U.S.</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">World</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Business</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Tech & Science</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Culture</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Newsgeek</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Sports</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Health</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">The Debate</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Vantage</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Weather</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-1 my-lg-0">
-                    <input class="form-control nav-input" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                </form>
+  <header>
+    <nav>
+      <ul class="nav red-nav justify-content-lg-around justify-content-md-between">
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link active weather-link flex" href="">
+            <img src="./assets/images/30.png" alt="weather image" class="nav-img flex">
+            <span>29 Bucharest, RO &nbsp;&nbsp;</span>
+            <img src="./assets/images/ic-white-arrow.png" alt="right arrow" class="flex">
+          </a>
+          <p class="weather-date link-color">Tue, Sep 15, 2020</p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img class="nw-logo-big d-none d-lg-block" src="./assets/images/Newsweek-logo.png" alt="logo">
+            <img class="nw-logo-small d-md-block d-lg-none" src="./assets/images/Newsweek-logo.png" alt="logo">
+          </a>
+        </li>
+        <li class="nav-item right-nav flex">
+          <a class="nav-link link-color" href="#">LOGIN</a>
+          <button class="btn subscribe-btn" type="submit">SUBSCRIBE &nbsp;<i class="fa fa-angle-right"></i></button>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light white-nav">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav white-nav-ul">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">U.S.</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">World</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Tech & Science</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Newsgeek</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Health</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">The Debate</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Vantage</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+        </ul>
+        <form class="form-inline my-1 my-lg-0">
+          <input class="form-control nav-input" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light nav-padding">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav grey-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">TRENDING <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DONALD TRUMP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">JOE BIDEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CHINA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CORONAVIRUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">2020 ELECTION</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="colwrap row section1">
+        <!-- first column -->
+        <div class="col-lg col-md-5 col-sm-12">
+          <h4 class="main-titles">FEATURED STORIES</h4>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">U.S.</a></div>
+              <img src="./assets/images/joe-biden-pennsylvania.jpg" class="card-img-top" alt="joe-biden">
             </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-light nav-padding">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav grey-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">TRENDING <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">DONALD TRUMP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">JOE BIDEN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CHINA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CORONAVIRUS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">2020 ELECTION</a>
-                    </li>
-                </ul>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">Six Standout Moments From Biden's CNN Town Hall</h5>
+              <p class="card-text">The Democratic nominee railed against the Trump administration and pledged to bring
+                more troops home as he faced questions about his platform.</p>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container-fluid">
-            <div class="colwrap row section1">
-                <!-- first column -->
-                <div class="col-lg col-md-5 col-sm-12">
-                    <h4 class="main-titles">FEATURED STORIES</h4>
-                    <div class="card">
-                        <img src="./assets/images/usa-binary-map-smaller-version.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">As U.S.-China Cyber Cold War Rages, Intellectual Property
-                                Is A Costly
-                                Front</h5>
-                            <p class="card-text">"The theft of intellectual property by the People's Republic of China
-                                costs America
-                                as much as $500 billion a year," U.S. counterintelligence chief William Evanina told
-                                Newsweek.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./assets/images/apple-blm.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">Apple Helps FBI Nab Cop Car Firebomber After Refusing to
-                                Unlock San
-                                Bernardino Gunman's iPhone</h5>
-                            <p class="card-text">Apple CEO Tim Cook resisted the FBI's request in 2016 to unlock the
-                                iPhone of a
-                                suspect in the San Bernardino shooting.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./assets/images/kelly-loeffler.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">Georgia GOP Senator Calls for Judiciary Committee to
-                                Investigate
-                                'Cuties'</h5>
-                            <p class="card-text">Senator Kelly Loeffler wrote that the Netflix film "has raised new
-                                concerns about the
-                                entertainment industry's complicity in sexualizing children, which also fuels
-                                predators."</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./assets/images/senator-martha-mcsally.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">GOP Memo Lists 7 Senate Races 'At Risk' Of Flipping To
-                                Democrats</h5>
-                            <p class="card-text">Though many of the races are expected to be tough, the National
-                                Republican Senatorial
-                                Committee said it's likely a Democratic Senate seat in Alabama will flip to the
-                                Republicans.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./assets/images/trump-howard-county-election-2020.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">Iowa County Swung Big From Obama to Trump, and Signs Point
-                                to
-                                Re-election</h5>
-                            <p class="card-text">In a county that's become more vocal in its backing for Trump since
-                                2016, "everybody
-                                seems to have a flag," said the chair of the local Democratic Party.</p>
-                        </div>
-                    </div>
-                    <div class="sticky">
-                        <div class="card">
-                            <img src="./assets/images/best-online-shops-2021.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700">Best Online Shops 2021</h5>
-                                <p class="card-text">Newsweek and Statista are recognizing 1,000 shops across 39
-                                    categories
-                                    in eight
-                                    groups.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./assets/images/americas-best-physical-rehabilitation-centers-2020.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700">America's Best Physical Rehabilitation Centers 2020
-                                </h5>
-                                <p class="card-text">Finding reliable rehabilitation can be a challenge. We partnered
-                                    with
-                                    Statista to
-                                    rank the country's Best Physical Rehabilitation Centers.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./assets/images/brandspark.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700">What Brands do You Trust the Most?</h5>
-                                <p class="card-text">Tell us for a chance to win. 2020 Brandspark Most Trusted Awards.
-                                    Voted
-                                    by consumers
-                                    like you.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./assets/images/best-maternity-hospitals-2020.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700">Best Maternity Hospitals 2020</h5>
-                                <p class="card-text">The facilities cited by Newsweek are an elite group demonstrating
-                                    excellence in
-                                    maternity care. Check the full list here</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- Second Column -->
-                <div class="col-lg-5 col-md-7 col-sm-12">
-                    <h4 class="main-titles">TOP STORY</h4>
-                    <div class="card">
-                        <img src="./assets/images/hurricane-sally (1).jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title font-w-700">Hurricane Sally Leaves Over 440,000 People Along Gulf
-                                Coast Without Power</h5>
-                            <p class="card-text">According to Poweroutage.US, over 440,000 residents were left without
-                                power, with at least 234,103 in Alabama, 204,410 in Florida and 5,406 in Mississippi.
-                            </p>
-                        </div>
-                    </div>
-                    <h4 class="main-titles">MY TURN</h4>
-                    <div class="row">
-                        <div class="card col-4">
-                            <img src="./assets/images/sapiosexuality-relationships-dating.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">"This Is What It's Like to Be
-                                        Sapiosexual"</a></h5>
-                            </div>
-                        </div>
-                        <div class="card col-4">
-                            <img src="./assets/images/covid-19-coronavirus-vaccine-doctor-trials.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">'I'm Working on a COVID-19 Vaccine'</a>
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="card col-4">
-                            <img src="./assets/images/marriage-divorce-relationships-therapy.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">'I'm a Marriage Therapist, Here Are 3 Ways
-                                        Marriage Has Changed'</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="main-titles">CULTURE & TRAVEL</h4>
-                    <div class="row">
-                        <div class="card col-4">
-                            <img src="./assets/images/san-marino.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">The Countries With the Least Amount of
-                                        Travel Buzz, According to Google</a></h5>
-                            </div>
-                        </div>
-                        <div class="card col-4">
-                            <img src="./assets/images/roshni-misbah-4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">Planning a Trip to One of NYC's Recently
-                                        Opened Museums? What to Know</a></h5>
-                            </div>
-                        </div>
-                        <div class="card col-4">
-                            <img src="./assets/images/met.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title font-w-700"><a href="#">'I'm a Marriage Therapist, Here Are 3 Ways
-                                        Marriage Has Changed'</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="main-titles">MORE STORIES</h4>
-                    <ul class="list-unstyled center-col-ul sticky">
-                        <li class="media">
-                            <img src="./assets/images/trump-michigan-rally-september-2020.jpg" class="mr-3"
-                                alt="trump rally">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Trump Is Within the Margin of Error in Seven Swing States
-                                </h5>
-                                While national polls show Biden ahead of Trump by 7 percentage points, most polls in
-                                major swing states show no clear or definitive winner.
-
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/bourbon-street-new-orleans-louisiana-2020.jpg" class="mr-3"
-                                alt="new orleans">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Every State Where Coronavirus Cases Are Falling</h5>
-                                New infections were reported to be declining in 28 states across the U.S., including
-                                California, Florida and Arizona.
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/mitt-romney.jpg" class="mr-3" alt="mitt romney">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Mitt Romney Chastises Biden-Burisma Probe as A 'Political
-                                    Exercise'</h5>
-                                The investigation, led by Sen. Ron Johnson, is in part designed to help President Trump
-                                win re-election, the Wisconsin Republican has admitted.
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/daylight-saving-time-clocks-rubio-scott.jpg" class="mr-3"
-                                alt="clock">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Senators Push to Keep DST: Government Has Asked 'a Lot' of
-                                    Americans</h5>
-                                Senators Marco Rubio and Rick Scott want daylight saving time in place until November
-                                2021 to give Americans "a year of stability" amid the pandemic.
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/elon-musk.jpg" class="mr-3" alt="elon musk">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Musk Says Electric Cars in Tunnels Under Cities Will 'Feel
-                                    Like Warp Drive'</h5>
-                                The Tesla and SpaceX boss announced on Twitter this week that The Boring Company's first
-                                operational tunnel in Las Vegas is "almost done."
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/concentration-camps-survey-millenials-gen-z.jpg" class="mr-3"
-                                alt="concentration camps">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">48 Percent of Millennials, Gen Z Can't Name Single
-                                    Concentration Camp</h5>
-                                The Nazis established 44,000 concentration camps and other incarceration sites during
-                                the Holocaust.
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/donald-trump.jpg" class="mr-3" alt="donald trump">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">The Trump Campaign Believes It Has Biden On the Ropes.
-                                    Here's Why</h5>
-                                Campaign manager Bill Stepien is reassuring nervous Republican donors that despite being
-                                outspent so far, the president's campaign has big plans.
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/mark-zuckerberg.jpg" class="mr-3" alt="mark zuckerberg">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Facebook Refuses to Comment on 24-Hour Instagram Boycott by
-                                    Celebrities</h5>
-                                "I can't sit by and stay silent while these platforms continue to allow the spreading of
-                                hate, propaganda and misinformation," Kim Kardashian West tweeted Wednesday.
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/queen-elizabeth-ii-diplomatic-corps-reception.jpg" class="mr-3"
-                                alt="queen elizabeth">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Queen Elizabeth II Could Be Removed by More Commonwealth
-                                    Countries</h5>
-                                Barbados plans to remove the monarch as its head of state next year and experts tell
-                                Newsweek it could mean the "house of cards falls" as more countries follow suit.
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/tucker-carlson-tonight-dr-li-meng-yan.png" class="mr-3"
-                                alt="tucker carlson">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">Twitter Suspends Chinese Virologist Who Claimed Coronavirus
-                                    Was Made in Lab</h5>
-                                The social media profile of Dr. Li-Meng Yan went dark this week as the academic claimed
-                                to have evidence the Chinese government was involved in making the infectious novel
-                                coronavirus.
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/rep-eliot-engel-house-committee-foreign-affairs.jpg" class="mr-3"
-                                alt="eliot engel">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">House Committee Says State Dept. Tried to Hide Casualties in
-                                    Arms Report</h5>
-                                The House Foreign Affairs Committee released correspondence which it says shows the
-                                State Department's attempts to redact civilian casualties information from a report into
-                                arms sale to three Gulf states.
-                            </div>
-                        </li>
-                        <li class="media my-3">
-                            <img src="./assets/images/aoc.jpg" class="mr-3" alt="Alexandria ocasio">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">AOC Asks Why Abolishing ICE Is 'Controversial' After
-                                    Hysterectomy Claims</h5>
-                                Lawmakers have called for a probe following reports from a whistleblower into the
-                                treatment of immigrants at an ICE center in Georgia.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Third Column -->
-                <div class="col-lg col-md-12">
-                    <h4 class="main-titles">THE DEBATE</h4>
-                    <div class="debate">
-                        <div class="media">
-                            <img src="./assets/images/jamil-n-jaffer.png" class="align-self-center mr-3 media-img"
-                                alt="...">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">The Best (Cyber) Defense Is a Good (Cyber) Offense</h5>
-                                <p class="mb-0">BY <span class="font-w-700">JAMIL N. JAFFER</span></p>
-                            </div>
-                        </div>
-                        <div class="vs-lines">
-                            <div class="vs">VS</div>
-                        </div>
-                        <div class="media">
-                            <div class="media-body">
-                                <h5 class="mt-0 font-w-700">The U.S. Needs a Cyber Strategy Designed for Defense</h5>
-                                <p class="mb-0">BY <span class="font-w-700">BONNIE KRISTIAN</span></p>
-                            </div>
-                            <img src="./assets/images/bonnie-kristian0.png" class="align-self-center mr-3 media-img"
-                                alt="...">
-                        </div>
-                    </div>
-                    <h4 class="main-titles opinion-h4">OPINION</h4>
-                    <ul class="list-unstyled center-col-ul">
-                        <li class="media first-li">
-                            <img src="./assets/images/jane-fonda.png" class="mr-3" alt="Jane Fonda">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">Trump Is a Disaster on Climate Change. But We Can't Let
-                                    Newsom Off the Hook</h5>
-                                <p class="font-w-700  color-paragraph">BY JANE FONDA</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/gary-bauer-nury-turkel.png" class="mr-3" alt="gary bauer">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">It's Time to Get Concerned About Russia</h5>
-                                <p class="font-w-700  color-paragraph">BY GARY BAUER AND NURY TURKEL</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/aaron-rhodes-dr-jianli-yang.png" class="mr-3" alt="...">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">On Taiwan, Moral Courage from the Czech Republic</h5>
-                                <p class="font-w-700  color-paragraph">BY AARON RHODES AND DR. JIANLI YANG</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/jason-d-greenblatt.png" class="mr-3" alt="Jason">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">The Abraham Accords Are a Sanctification of God's Name
-                                </h5>
-                                <p class="font-w-700  color-paragraph">BY JASON D. GREENBLATT</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/gerald-posner-margarida-jorge.png" class="mr-3" alt="Gerard">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">Pharma Insiders Are Raking in Money Despite No
-                                    Guaranteed COVID-19 Vaccine</h5>
-                                <p class="font-w-700  color-paragraph">BY GERALD POSNER AND MARGARIDA JORGE</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/natan-sharansky.png" class="mr-3" alt="Nathan">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">Remembering Babyn Yar Can Give Moral Clarity In Today's
-                                    World Of Confusion</h5>
-                                <p class="font-w-700  color-paragraph">BY NATAN SHARANSKY</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <img src="./assets/images/roff-new.png" class="mr-3" alt="Roff New">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1 font-w-700">On 9/11, We Failed to Remember</h5>
-                                <p class="font-w-700 color-paragraph">BY PETER ROFF</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
-                            <img src="./assets/images/image-2-startup-making-long.jpg" class="card-img-top" alt="...">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">This Startup Is Making Long Distance Real Estate
-                                    Investing
-                                    Possible for Millennials</h5>
-                                <p class="card-text">75% of Roofstock users are first-time real estate investors, and
-                                    more
-                                    than half are under 35.</p>
-                            </div>
-                        </div>
-                        <form class="col-3-form">
-                            <div class="media">
-                                <div class="align-self-center mr-3 n-red-icon"></div>
-                                <div class="media-body">
-                                    <h5 class="mt-0 font-w-700 ">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email address">
-                            </div>
-                            <button type="submit" class="btn free-sign-up">FREE SIGN UP&nbsp;<i
-                                    class="fa fa-angle-right"></i></button>
-                        </form>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
-                            <img src="./assets/images/trinity-college-dublin.jpg" class="card-img-top"
-                                alt="university building picture">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">What Could a Career in Engineering or Computer Science
-                                    Do
-                                    For You?</h5>
-                                <p class="card-text">Could this be the perfect time for you to pursue a career in
-                                    engineering or computer science? Find out how to get started.</p>
-                            </div>
-                        </div>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
-                            <img src="./assets/images/gravely-pc.jpg" class="card-img-top" alt="lawyer picture">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">What Makes the Best Lawyers Stand Out?</h5>
-                                <p class="card-text">The unthinkable has happened and you need a good lawyer to turn to,
-                                    how
-                                    do you chose?</p>
-                            </div>
-                        </div>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
-                            <img src="./assets/images/americas-best-addiction-treatment-centers-2020.png"
-                                class="card-img-top" alt="addiction treatment image">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">America's Best Addiction Treatment Centers 2020</h5>
-                                <p class="card-text">Newsweek partnered with global market research firm Statista Inc.
-                                    to
-                                    rank the best U.S. treatment facilities that focus on addiction.</p>
-                            </div>
-                        </div>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
-                            <img src="./assets/images/infection-prevention-products-banner.jpg" class="card-img-top"
-                                alt="coronavirus banner">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">Best Infection Prevention Products</h5>
-                                <p class="card-text">During the coronavirus outbreak, health care is more important than
-                                    ever. In Newsweek's first Best Health Care series, we highlight the best infection
-                                    prevention products.</p>
-                            </div>
-                        </div>
-                        <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center sticky">
-                            <img src="./assets/images/best-nursing-homes-2020.png" class="card-img-top"
-                                alt="nursing homes banner">
-                            <div class="third-col-card-body">
-                                <h5 class="card-title font-w-700">Best Nursing Homes 2021</h5>
-                                <p class="card-text">Newsweek is partnering with the respected global data research firm
-                                    Statista Inc. to establish a ranking of Best Nursing Homes 2021. If you work in this
-                                    field, please participate in our survey.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">HEALTH</a></div>
+              <img src="./assets/images/apple-blm.jpg" class="card-img-top" alt="apple">
             </div>
-            <!-- SECTION 2 In The Magazine-->
-            <section>
-                <div class="colwrap row section2">
-                    <div class="in-the-magazine-title flex">
-                        <div class="align-self-center mr-3 n-red-icon"></div>
-                        <h5 class="font-w-700 ">IN THE MAGAZINE</h5>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <img src="./assets/images/cover-september-25-2020.jpg" class="card-img-top"
-                            alt="magazine cover">
-                        <h5 class="card-title font-w-700 in-the-mag-sub">SEE ALL FEATURES &nbsp;<i
-                                class="fa fa-angle-right"></i></h5>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img1"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span
-                                    class="in-the-mag-card-sub">COVER</span><span><a href="#">NEWS</a></span></h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">How the Pandemic Will Change the Way We Manage Money Forever</a>
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img2"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span
-                                    class="in-the-mag-card-sub">FEATURES</span><span><a href="#">NEWS</a></span></h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
-                                    December</a>
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img3"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span
-                                    class="in-the-mag-card-sub">PERISCOPE</span><span><a href="#">POLITICS</a></span>
-                            </h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off, Lets Loose on
-                                    'Idiotic' Trump</a>
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img4"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span
-                                    class="in-the-mag-card-sub">PERISCOPE</span><span><a href="#">CULTURE</a></span>
-                            </h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">Here Are the Young, Diverse Conservative Stars Progressives Need to Fear</a>
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img5"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span
-                                    class="in-the-mag-card-sub">DOWNTIME</span><span><a href="#">CULTURE</a></span></h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic Racism</a>
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 col-sm-12">
-                        <div class="card-img-top magazine-img in-the-mag-img6"></div>
-                        <div class="card-body">
-                            <h5 class="card-title in-the-mag-section font-w-700"><span class="in-the-mag-card-sub">IN
-                                    FOCUS</span><span><a href="#"></a></span></h5>
-                            <h5 class="card-title in-the-mag-title font-w-700">
-                                <a href="#">"WE WERE WARNED"</a>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Section 3 Editor's Picks -->
-            <section>
-                <div class="colwrap row section3">
-                    <div class="in-the-magazine-title flex">
-                        <div class="align-self-center mr-3 n-red-icon"></div>
-                        <h5 class="font-w-700 ">EDITOR'S PICKS</h5>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/biden.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">As Trump Boosts Ad Spend, Biden Unveils $65 Million Blitz in Battlegrounds</a></h5>
-                            <p class="card-text eds-pick-text">The Biden campaign announced the spending after Trump's team said it would be spending an unspecified eight-figure sum on advertisements.</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/yellowstone.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">Yellowstone Volcano Earthquake Swarm Sees 100 Events Recorded in One Day</a></h5>
-                            <p class="card-text eds-pick-text">Scientists say this is the best-recorded earthquake swarm to hit Yellowstone and the team is now analyzing the data from it.</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/cul-ps-janelle-monae1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic Racism</a></h5>
-                            <p class="card-text eds-pick-text">"We're in the middle of a revolution. We're in the middle of a reckoning," Janelle Monáe told Newsweek</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/great-white-shark.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">Killer Whales 'Ripped Open' Great White Sharks, Ate Liver, Heart and Testes</a></h5>
-                            <p class="card-text eds-pick-text">Marine biologist describes injuries sustained by the sharks in South Africa after being hunted by orca.</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/covid-19-coronavirus-getty-new-york.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">You Are One Million Times More Likely to Catch Coronavirus Than Win Lottery</a></h5>
-                            <p class="card-text eds-pick-text">World Health Organization expert Dr. Mike Ryan said the chances of catching the coronavirus are high.</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/anti-racism-protest.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">Why Are Black People Still Paid Less Than Their White Counterparts?</a></h5>
-                            <p class="card-text eds-pick-text">The ethnicity pay gap "is costing the British economy as much as £24 billion ($31 billion) a year."</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/getty-images-california-fire.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">How and When Did the California Wildfires Start?</a></h5>
-                            <p class="card-text eds-pick-text">Wildfires can be a natural occurrence or can be started by humans.</p>
-                        </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6 col-lg-3">
-                        <img src="./assets/images/meghan-markle-baby-archie-save-stories.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title eds-pick-title font-w-700"><a href="#">Why Meghan Markle Losing Her Paparazzi Privacy Case is 'Impossible'</a></h5>
-                            <p class="card-text eds-pick-text">The Duchess of Sussex may be virtually guaranteed victory in a law suit against a major paparazzi agency operating in the U.K. and U.S. thanks to a princess from Monaco, legal experts tell Newsweek.</p>
-                        </div>
-                    </div>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">Apple Helps FBI Nab Cop Car Firebomber After Refusing to
+                Unlock San
+                Bernardino Gunman's iPhone</h5>
+              <p class="card-text">Apple CEO Tim Cook resisted the FBI's request in 2016 to unlock the
+                iPhone of a
+                suspect in the San Bernardino shooting.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">POLITIC</a></div>
+              <img src="./assets/images/kelly-loeffler.jpg" class="card-img-top" alt="kelly-loeffler">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">Georgia GOP Senator Calls for Judiciary Committee to
+                Investigate
+                'Cuties'</h5>
+              <p class="card-text">Senator Kelly Loeffler wrote that the Netflix film "has raised new
+                concerns about the
+                entertainment industry's complicity in sexualizing children, which also fuels
+                predators."</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+              <img src="./assets/images/senator-martha-mcsally.jpg" class="card-img-top" alt="senator-martha-mcsally">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">GOP Memo Lists 7 Senate Races 'At Risk' Of Flipping To
+                Democrats</h5>
+              <p class="card-text">Though many of the races are expected to be tough, the National
+                Republican Senatorial
+                Committee said it's likely a Democratic Senate seat in Alabama will flip to the
+                Republicans.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">U.S</a></div>
+              <img src="./assets/images/trump-howard-county-election-2020.jpg" class="card-img-top"
+                alt="horward-election">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">Iowa County Swung Big From Obama to Trump, and Signs Point
+                to
+                Re-election</h5>
+              <p class="card-text">In a county that's become more vocal in its backing for Trump since
+                2016, "everybody
+                seems to have a flag," said the chair of the local Democratic Party.</p>
+            </div>
+          </div>
+          <div class="sticky">
+            <div class="card">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+                <img src="./assets/images/best-online-shops-2021.png" class="card-img-top" alt="online-shop">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title font-w-700">Best Online Shops 2021</h5>
+                <p class="card-text">Newsweek and Statista are recognizing 1,000 shops across 39
+                  categories
+                  in eight
+                  groups.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+                <img src="./assets/images/americas-best-physical-rehabilitation-centers-2020.png" class="card-img-top"
+                  alt="Physical-rehabilitation">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title font-w-700">America's Best Physical Rehabilitation Centers 2020
+                </h5>
+                <p class="card-text">Finding reliable rehabilitation can be a challenge. We partnered
+                  with
+                  Statista to
+                  rank the country's Best Physical Rehabilitation Centers.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">TAKE THE SURVEY</a></div>
+                <img src="./assets/images/brandspark.png" class="card-img-top" alt="brandspark">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title font-w-700">What Brands do You Trust the Most?</h5>
+                <p class="card-text">Tell us for a chance to win. 2020 Brandspark Most Trusted Awards.
+                  Voted
+                  by consumers
+                  like you.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+                <img src="./assets/images/best-maternity-hospitals-2020.png" class="card-img-top"
+                  alt="maternity-hospital">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title font-w-700">Best Maternity Hospitals 2020</h5>
+                <p class="card-text">The facilities cited by Newsweek are an elite group demonstrating
+                  excellence in
+                  maternity care. Check the full list here</p>
+              </div>
+            </div>
 
-                </div>
-            </section>
+          </div>
+
         </div>
+        <!-- Second Column -->
+        <div class="col-lg-5 col-md-7 col-sm-12">
+          <h4 class="main-titles">TOP STORY</h4>
+          <div class="card">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">U.S.</a></div>
+              <img src="./assets/images/joe.jpg" class="card-img-top" alt="joe-biden">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-w-700">Biden Nearly 5 Times More Likely than Trump to Win Election, Models Show
+              </h5>
+              <p class="card-text">In all the models used, Democratic presidential candidate Joe Biden was predicted to
+                defeat President Donald Trump in both the popular vote and the Electoral College.
+              </p>
+            </div>
+          </div>
+          <h4 class="main-titles">MY TURN</h4>
+          <div class="row">
+            <div class="card col-4">
+              <img src="./assets/images/sapiosexuality-relationships-dating.jpg" class="card-img-top" alt="sapiosexuality-relationships-dating">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">"This Is What It's Like to Be
+                    Sapiosexual"</a></h5>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./assets/images/covid-19-coronavirus-vaccine-doctor-trials.jpg" class="card-img-top" alt="covid-19-coronavirus-vaccine-doctor-trials">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">'I'm Working on a COVID-19 Vaccine'</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./assets/images/marriage-divorce-relationships-therapy.jpg" class="card-img-top" alt="marriage-divorce-relationships-therapy">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">'I'm a Marriage Therapist, Here Are 3 Ways
+                    Marriage Has Changed'</a></h5>
+              </div>
+            </div>
+          </div>
+          <h4 class="main-titles">CULTURE & TRAVEL</h4>
+          <div class="row">
+            <div class="card col-4">
+              <img src="./assets/images/san-marino.jpg" class="card-img-top" alt="san-marino">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">The Countries With the Least Amount of
+                    Travel Buzz, According to Google</a></h5>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./assets/images/roshni-misbah-4.jpg" class="card-img-top" alt="roshni-misbah-4">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">Planning a Trip to One of NYC's Recently
+                    Opened Museums? What to Know</a></h5>
+              </div>
+            </div>
+            <div class="card col-4">
+              <img src="./assets/images/met.jpg" class="card-img-top" alt="met">
+              <div class="card-body">
+                <h5 class="card-title font-w-700"><a href="#">'I'm a Marriage Therapist, Here Are 3 Ways
+                    Marriage Has Changed'</a></h5>
+              </div>
+            </div>
+          </div>
+          <h4 class="main-titles">MORE STORIES</h4>
+          <ul class="list-unstyled center-col-ul sticky">
+            <li class="media">
+              <img src="./assets/images/trump-michigan-rally-september-2020.jpg" class="mr-3" alt="trump rally">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Trump Is Within the Margin of Error in Seven Swing States
+                </h5>
+                While national polls show Biden ahead of Trump by 7 percentage points, most polls in
+                major swing states show no clear or definitive winner.
+
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/bourbon-street-new-orleans-louisiana-2020.jpg" class="mr-3" alt="new orleans">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Every State Where Coronavirus Cases Are Falling</h5>
+                New infections were reported to be declining in 28 states across the U.S., including
+                California, Florida and Arizona.
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/mitt-romney.jpg" class="mr-3" alt="mitt romney">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Mitt Romney Chastises Biden-Burisma Probe as A 'Political
+                  Exercise'</h5>
+                The investigation, led by Sen. Ron Johnson, is in part designed to help President Trump
+                win re-election, the Wisconsin Republican has admitted.
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/daylight-saving-time-clocks-rubio-scott.jpg" class="mr-3" alt="clock">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Senators Push to Keep DST: Government Has Asked 'a Lot' of
+                  Americans</h5>
+                Senators Marco Rubio and Rick Scott want daylight saving time in place until November
+                2021 to give Americans "a year of stability" amid the pandemic.
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/elon-muskk.jpg" class="mr-3" alt="elon musk">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Musk Says Electric Cars in Tunnels Under Cities Will 'Feel
+                  Like Warp Drive'</h5>
+                The Tesla and SpaceX boss announced on Twitter this week that The Boring Company's first
+                operational tunnel in Las Vegas is "almost done."
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/concentration-camps-survey-millenials-gen-z.jpg" class="mr-3"
+                alt="concentration camps">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">48 Percent of Millennials, Gen Z Can't Name Single
+                  Concentration Camp</h5>
+                The Nazis established 44,000 concentration camps and other incarceration sites during
+                the Holocaust.
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/donald-trump.jpg" class="mr-3" alt="donald trump">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">The Trump Campaign Believes It Has Biden On the Ropes.
+                  Here's Why</h5>
+                Campaign manager Bill Stepien is reassuring nervous Republican donors that despite being
+                outspent so far, the president's campaign has big plans.
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/mark-zucker.jpg" class="mr-3" alt="mark zuckerberg">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Facebook Refuses to Comment on 24-Hour Instagram Boycott by
+                  Celebrities</h5>
+                "I can't sit by and stay silent while these platforms continue to allow the spreading of
+                hate, propaganda and misinformation," Kim Kardashian West tweeted Wednesday.
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/queen-elizabeth-ii-diplomatic-corps-reception.jpg" class="mr-3"
+                alt="queen elizabeth">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Queen Elizabeth II Could Be Removed by More Commonwealth
+                  Countries</h5>
+                Barbados plans to remove the monarch as its head of state next year and experts tell
+                Newsweek it could mean the "house of cards falls" as more countries follow suit.
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/tucker-carlson-tonight-dr-li-meng-yan.png" class="mr-3" alt="tucker carlson">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">Twitter Suspends Chinese Virologist Who Claimed Coronavirus
+                  Was Made in Lab</h5>
+                The social media profile of Dr. Li-Meng Yan went dark this week as the academic claimed
+                to have evidence the Chinese government was involved in making the infectious novel
+                coronavirus.
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/rep-eliot-engel-house-committee-foreign-affairs.jpg" class="mr-3"
+                alt="eliot engel">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">House Committee Says State Dept. Tried to Hide Casualties in
+                  Arms Report</h5>
+                The House Foreign Affairs Committee released correspondence which it says shows the
+                State Department's attempts to redact civilian casualties information from a report into
+                arms sale to three Gulf states.
+              </div>
+            </li>
+            <li class="media my-3">
+              <img src="./assets/images/aoc.jpg" class="mr-3" alt="Alexandria ocasio">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">AOC Asks Why Abolishing ICE Is 'Controversial' After
+                  Hysterectomy Claims</h5>
+                Lawmakers have called for a probe following reports from a whistleblower into the
+                treatment of immigrants at an ICE center in Georgia.
+              </div>
+            </li>
+          </ul>
         </div>
-    </main>
+        <!-- Third Column -->
+        <div class="col-lg col-md-12">
+          <h4 class="main-titles">THE DEBATE</h4>
+          <div class="debate">
+            <div class="media">
+              <img src="./assets/images/jamil-n-jaffer.png" class="align-self-center mr-3 media-img" alt="jamil-n-jaffer">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">The Best (Cyber) Defense Is a Good (Cyber) Offense</h5>
+                <p class="mb-0">BY <span class="font-w-700">JAMIL N. JAFFER</span></p>
+              </div>
+            </div>
+            <div class="vs-lines">
+              <div class="vs">VS</div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <h5 class="mt-0 font-w-700">The U.S. Needs a Cyber Strategy Designed for Defense</h5>
+                <p class="mb-0">BY <span class="font-w-700">BONNIE KRISTIAN</span></p>
+              </div>
+              <img src="./assets/images/bonnie-kristian0.png" class="align-self-center mr-3 media-img" alt="bonnie-kristian0">
+            </div>
+          </div>
+          <h4 class="main-titles opinion-h4">OPINION</h4>
+          <ul class="list-unstyled center-col-ul">
+            <li class="media first-li">
+              <img src="./assets/images/jane-fonda.png" class="mr-3" alt="Jane Fonda">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">Trump Is a Disaster on Climate Change. But We Can't Let
+                  Newsom Off the Hook</h5>
+                <p class="font-w-700  color-paragraph">BY JANE FONDA</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/gary-bauer-nury-turkel.png" class="mr-3" alt="gary bauer">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">It's Time to Get Concerned About Russia</h5>
+                <p class="font-w-700  color-paragraph">BY GARY BAUER AND NURY TURKEL</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/aaron-rhodes-dr-jianli-yang.png" class="mr-3" alt="aaron-rhodes-dr-jianli-yang">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">On Taiwan, Moral Courage from the Czech Republic</h5>
+                <p class="font-w-700  color-paragraph">BY AARON RHODES AND DR. JIANLI YANG</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/jason-d-greenblatt.png" class="mr-3" alt="Jason">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">The Abraham Accords Are a Sanctification of God's Name
+                </h5>
+                <p class="font-w-700  color-paragraph">BY JASON D. GREENBLATT</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/gerald-posner-margarida-jorge.png" class="mr-3" alt="Gerard">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">Pharma Insiders Are Raking in Money Despite No
+                  Guaranteed COVID-19 Vaccine</h5>
+                <p class="font-w-700  color-paragraph">BY GERALD POSNER AND MARGARIDA JORGE</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/natan-sharansky.png" class="mr-3" alt="Nathan">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">Remembering Babyn Yar Can Give Moral Clarity In Today's
+                  World Of Confusion</h5>
+                <p class="font-w-700  color-paragraph">BY NATAN SHARANSKY</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="./assets/images/roff-new.png" class="mr-3" alt="Roff New">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1 font-w-700">On 9/11, We Failed to Remember</h5>
+                <p class="font-w-700 color-paragraph">BY PETER ROFF</p>
+              </div>
+            </li>
+          </ul>
+          <div>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">SPONSORED INSIGHT</a></div>
+                <img src="./assets/images/image-2-startup-making-long.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">This Startup Is Making Long Distance Real Estate
+                  Investing
+                  Possible for Millennials</h5>
+                <p class="card-text">75% of Roofstock users are first-time real estate investors, and
+                  more
+                  than half are under 35.</p>
+              </div>
+            </div>
+            <form class="col-3-form">
+              <div class="media">
+                <div class="align-self-center mr-3 n-red-icon"></div>
+                <div class="media-body">
+                  <h5 class="mt-0 font-w-700 ">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Email address">
+              </div>
+              <button type="submit" class="btn free-sign-up">FREE SIGN UP&nbsp;<i
+                  class="fa fa-angle-right"></i></button>
+            </form>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">SPONSORED INSIGHT</a></div>
+                <img src="./assets/images/trinity-college-dublin.jpg" class="card-img-top"
+                  alt="university building picture">
+              </div>
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">What Could a Career in Engineering or Computer Science
+                  Do
+                  For You?</h5>
+                <p class="card-text">Could this be the perfect time for you to pursue a career in
+                  engineering or computer science? Find out how to get started.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">SPONSORED INSIGHT</a></div>
+                <img src="./assets/images/gravely-pc.jpg" class="card-img-top" alt="lawyer picture">
+              </div>
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">What Makes the Best Lawyers Stand Out?</h5>
+                <p class="card-text">The unthinkable has happened and you need a good lawyer to turn to,
+                  how
+                  do you chose?</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+                <img src="./assets/images/americas-best-addiction-treatment-centers-2020.png" class="card-img-top"
+                  alt="addiction treatment image">
+              </div>
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">America's Best Addiction Treatment Centers 2020</h5>
+                <p class="card-text">Newsweek partnered with global market research firm Statista Inc.
+                  to
+                  rank the best U.S. treatment facilities that focus on addiction.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center">
+              <div class="wrap">
+                <div class="category font-w-700"><a href="/us">RANKINGS</a></div>
+                <img src="./assets/images/infection-prevention-products-banner.jpg" class="card-img-top"
+                  alt="coronavirus banner">
+              </div>
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">Best Infection Prevention Products</h5>
+                <p class="card-text">During the coronavirus outbreak, health care is more important than
+                  ever. In Newsweek's first Best Health Care series, we highlight the best infection
+                  prevention products.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-5 col-lg-12 third-col-center sticky">
+              <img src="./assets/images/best-nursing-homes-2020.png" class="card-img-top" alt="nursing homes banner">
+              <div class="third-col-card-body">
+                <h5 class="card-title font-w-700">Best Nursing Homes 2021</h5>
+                <p class="card-text">Newsweek is partnering with the respected global data research firm
+                  Statista Inc. to establish a ranking of Best Nursing Homes 2021. If you work in this
+                  field, please participate in our survey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SECTION 2 In The Magazine-->
+      <section>
+        <div class="colwrap row section2">
+          <div class="in-the-magazine-title flex">
+            <div class="align-self-center mr-3 n-red-icon"></div>
+            <h5 class="font-w-700 ">IN THE MAGAZINE</h5>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <img src="./assets/images/cover-september-25-2020.jpg" class="card-img-top" alt="magazine cover">
+            <h5 class="card-title font-w-700 in-the-mag-sub">SEE ALL FEATURES &nbsp;<i class="fa fa-angle-right"></i>
+            </h5>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img1"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span
+                  class="in-the-mag-card-sub">COVER</span><span><a href="#">NEWS</a></span></h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">How the Pandemic Will Change the Way We Manage Money Forever</a>
+              </h5>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img2"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span
+                  class="in-the-mag-card-sub">FEATURES</span><span><a href="#">NEWS</a></span></h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
+                  December</a>
+              </h5>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img3"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span
+                  class="in-the-mag-card-sub">PERISCOPE</span><span><a href="#">POLITICS</a></span>
+              </h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off, Lets Loose on
+                  'Idiotic' Trump</a>
+              </h5>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img4"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span
+                  class="in-the-mag-card-sub">PERISCOPE</span><span><a href="#">CULTURE</a></span>
+              </h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">Here Are the Young, Diverse Conservative Stars Progressives Need to Fear</a>
+              </h5>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img5"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span
+                  class="in-the-mag-card-sub">DOWNTIME</span><span><a href="#">CULTURE</a></span></h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic Racism</a>
+              </h5>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12">
+            <div class="card-img-top magazine-img in-the-mag-img6"></div>
+            <div class="card-body">
+              <h5 class="card-title in-the-mag-section font-w-700"><span class="in-the-mag-card-sub">IN
+                  FOCUS</span><span><a href="#"></a></span></h5>
+              <h5 class="card-title in-the-mag-title font-w-700">
+                <a href="#">"WE WERE WARNED"</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 3 Editor's Picks -->
+      <section>
+        <div class="colwrap row section3">
+          <div class="in-the-magazine-title flex">
+            <div class="align-self-center mr-3 n-red-icon"></div>
+            <h5 class="font-w-700 ">EDITOR'S PICKS</h5>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">WORLD</a></div>
+              <img src="./assets/images/biden.jpg" class="card-img-top" alt="joe-biden">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">As Trump Boosts Ad Spend, Biden Unveils $65
+                  Million Blitz in Battlegrounds</a></h5>
+              <p class="card-text eds-pick-text">The Biden campaign announced the spending after Trump's team said it
+                would be spending an unspecified eight-figure sum on advertisements.</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">TECH & SCIENCE</a></div>
+              <img src="./assets/images/yellowstone.jpg" class="card-img-top" alt="yellowstone">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">Yellowstone Volcano Earthquake Swarm Sees 100
+                  Events Recorded in One Day</a></h5>
+              <p class="card-text eds-pick-text">Scientists say this is the best-recorded earthquake swarm to hit
+                Yellowstone and the team is now analyzing the data from it.</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">CULTURE</a></div>
+              <img src="./assets/images/cul-ps-janelle-monae1.jpg" class="card-img-top" alt="janelle-monae">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">Janelle Monáe's Film 'Antebellum' Shows the
+                  Horrors of Systemic Racism</a></h5>
+              <p class="card-text eds-pick-text">"We're in the middle of a revolution. We're in the middle of a
+                reckoning," Janelle Monáe told Newsweek</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">TECH & SCIENCE</a></div>
+              <img src="./assets/images/great-white-shark.jpg" class="card-img-top" alt="white-shark">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">Killer Whales 'Ripped Open' Great White
+                  Sharks, Ate Liver, Heart and Testes</a></h5>
+              <p class="card-text eds-pick-text">Marine biologist describes injuries sustained by the sharks in South
+                Africa after being hunted by orca.</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">NEWS</a></div>
+              <img src="./assets/images/covid-19-coronavirus-getty-new-york.jpg" class="card-img-top"
+                alt="covid-19-coronavirus-getty-new-york">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">You Are One Million Times More Likely to
+                  Catch Coronavirus Than Win Lottery</a></h5>
+              <p class="card-text eds-pick-text">World Health Organization expert Dr. Mike Ryan said the chances of
+                catching the coronavirus are high.</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">WORLD</a></div>
+              <img src="./assets/images/anti-racism-protest.jpg" class="card-img-top" alt="anti-racism-protest">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">Why Are Black People Still Paid Less Than
+                  Their White Counterparts?</a></h5>
+              <p class="card-text eds-pick-text">The ethnicity pay gap "is costing the British economy as much as £24
+                billion ($31 billion) a year."</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">WORLD</a></div>
+              <img src="./assets/images/getty-images-california-fire.jpg" class="card-img-top" alt="California-fire">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">How and When Did the California Wildfires
+                  Start?</a></h5>
+              <p class="card-text eds-pick-text">Wildfires can be a natural occurrence or can be started by humans.</p>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category font-w-700"><a href="/us">NEWS</a></div>
+              <img src="./assets/images/meghan-markle-baby-archie-save-stories.jpg" class="card-img-top"
+                alt="meghan-markle-baby-archie-save-stories">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title eds-pick-title font-w-700"><a href="#">Why Meghan Markle Losing Her Paparazzi
+                  Privacy Case is 'Impossible'</a></h5>
+              <p class="card-text eds-pick-text">The Duchess of Sussex may be virtually guaranteed victory in a law suit
+                against a major paparazzi agency operating in the U.K. and U.S. thanks to a princess from Monaco, legal
+                experts tell Newsweek.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">U.S</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/wisconsin-north-dakota-missouri-covid-19-coronavirus-cases.jpg"
+                class="card-img-top" alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">N Dakota, Wisconsin & Missouri Report Most
+                    COVID Cases Since Epidemic Began</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/we-were-warned.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Fire-Scorched Oregon Braces for Floods as
+                    California Increases Evacuations</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/route-91-harvest-festival-shooting-samanta-arjune (1).jpg"
+                    class="mr-3 align-self-center img-width" alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      60th Victim of Las Vegas Mass Shooting Dies From Wounds 3 Years Later</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/alex-jones.jpg" class="mr-3 align-self-center img-width" alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Alex Jones Denied Delay in Sandy Hook Defamation Lawsuit</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/nypd-hate-crime-black-jogger-attack-racism.jpg"
+                    class="mr-3 align-self-center img-width" alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">Police Look for White Woman Who Threw Bottle, Yelled N-Word at
+                      Black Jogger</h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-        </script>
+
+          </div>
+        </div>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">World</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/jacinda-ardern.jpg" class="card-img-top" alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">New Zealand Reports No New COVID Cases as
+                    Country Nears Elimination Again</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/srinagar-protest.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Indian Town Cuts Internet to Avoid More
+                    Protests Over Police Custody Death</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/russia-belarus-slavic-brotherhood-2020.jpg"
+                    class="mr-3 align-self-center img-width" alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Russia Eyes East and West Border Threats, Looks to China for Closer Ties</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/joe-biden.jpg" class="mr-3 align-self-center img-width" alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Joe Biden Warns Britain Over Brexit</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/usa-binary-map-smaller-version (1).jpg"
+                    class="mr-3 align-self-center img-width" alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">As U.S.-China Cyber Cold War Rages, Intellectual Property Is A
+                      Costly Front</h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">Business</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/pennsylvania-mask-restrictions-lifted-judge (1).jpg" class="card-img-top"
+                alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Judge Rules Pennsylvania's 'New Normal'
+                    COVID Restrictions Unconstitutional</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/tiktok-sale.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">TikTok Chooses Oracle, a Rare Trump Ally in
+                    Silicon Valley, to Sell Assets</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/swan-dive-rochester-protests-destroyed.jpg"
+                    class="mr-3 align-self-center img-width" alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Rochester Eatery Offered BLM Protesters Water Hours Before Being Vandalized</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/dunkin-donuts-santa-monica-california-2015.jpg"
+                    class="mr-3 align-self-center img-width" alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Are Starbucks, Dunkin' Donuts Open on Labor Day? See Coffee Shop Hours</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/cover-pandemic-money-graphic.jpg" class="mr-3 align-self-center img-width"
+                    alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">How the Pandemic Will Change the Way We Manage Money Forever</h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">Tech & Science</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/whale-ship-dead.jpg" class="card-img-top" alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">California Whales Are Being Killed by
+                    Ships. AI Might Be Able to Save Them</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/oculus-quest.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Facebook VR Guru Embarrassed by Lack of
+                    Social Experiences During COVID-19</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/elon-musk.jpg" class="mr-3 align-self-center img-width"
+                    alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Musk Says Electric Cars in Tunnels Under Cities Will 'Feel Like Warp Drive'r</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/mark-zuckerberg.jpg" class="mr-3 align-self-center img-width"
+                    alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Facebook Refuses to Comment on 24-Hour Instagram Boycott by Celebrities</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/tucker-carlson-tonight-dr-li-meng-yan.png"
+                    class="mr-3 align-self-center img-width" alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">Twitter Suspends Chinese Virologist Who Claimed Coronavirus Was
+                      Made in Lab</h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">Culture</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/cul-the-war-treaty.jpg" class="card-img-top" alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">The War and Treaty Look for Healing on
+                    their new album</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/electrodes.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Who Was Robert Galbraith Heath?</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/hogwarts-legacy-harry-potter-game-screenshot-troll.jpg"
+                    class="mr-3 align-self-center img-width" alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      'Hogwarts Legacy' Doesn't Have JK Rowling and Some Fans Seem Conflicted</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/michael-stipe.jpg" class="mr-3 align-self-center img-width"
+                    alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      REM's Michael Stipe Offers New COVID Guidelines to Georgia Governor</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/jerry-harris-cheer-arrest.jpg" class="mr-3 align-self-center img-width"
+                    alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">Netflix 'Cheer' Star Jerry Harris Arrested for Child Pornography
+                    </h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="section-4">
+          <h5 class="red-heading font-w-700">Sports</h5>
+          <div class="colwrap row">
+            <div class="card col-sm-12 col-md-6 col-lg-4 ">
+              <img src="./assets/images/justin-thomas-pga-tour.jpg" class="card-img-top" alt="covid-19">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">U.S. Open: Leaderboard, How to Watch, Live
+                    Stream Second Round</a></h5>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4">
+              <img src="./assets/images/nfl-joe-buck.jpg" class="card-img-top" alt="fire-burning">
+              <div class="card-body">
+                <h5 class="card-title eds-pick-title font-w-700"><a href="#">Watch Moment Joe Buck Finds Out He's Been
+                    Inducted into the Hall of Fame</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-4 last-ul-padding">
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="./assets/images/joe-burrow-cincinnati-bengals.jpg" class="mr-3 align-self-center img-width"
+                    alt="havest-festival">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Joe Burrow Sets Series of New NFL Records as Bengals Lose to Browns on TNF</h5>
+                  </div>
+                </li>
+                <li class="media my-4">
+                  <img src="./assets/images/joe-burrow-cincinnati-bengals (1).jpg"
+                    class="mr-3 align-self-center img-width" alt="Alex Jones">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">
+                      Thursday Night Football: Cincinnati Bengals @ Cleveland Browns Preview</h5>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="./assets/images/jimmy-butler-miami-heat.jpg" class="mr-3 align-self-center img-width"
+                    alt="black-jogger">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1 font-w-700">NBA Playoffs: How to Watch Miami Heat vs Boston Celtics on TV and
+                      Online</h5>
+
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+    </div>
+  </main>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
