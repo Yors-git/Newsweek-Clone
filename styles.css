@@ -199,7 +199,7 @@ body {
   left: 0;
   padding: 8px 15px 9px;
   color: #f61602;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .category a {
@@ -310,7 +310,8 @@ body {
 .n-red-icon {
   height: 28px;
   width: 28px;
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
+    center/contain;
   background-repeat: no-repeat;
   background-color: #f72210;
 }
@@ -421,7 +422,7 @@ body {
 /* Section 3 Editors Pick */
 
 .section3 {
-  margin-top: 20px;
+  margin: 30px 0;
   padding: 0;
 }
 
@@ -434,9 +435,11 @@ body {
   color: #333;
 }
 
+/* Section 4 extra */
+
 .section-4 {
   border-top: 1px solid rgb(236, 236, 236);
-  padding-top: 20px;
+  padding: 30px 0;
 }
 
 .img-width {
@@ -450,3 +453,77 @@ body {
 .last-ul-padding {
   padding-top: 20px;
 }
+
+/* Section 5 */
+
+.section5 {
+  padding: 30px 0;
+  border-top: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.subs1 {
+    padding: 0;
+}
+
+.subs1 h5 {
+    font-size: 16px;
+}
+
+.subscribe-last {
+  padding: 30px;
+  background-color: rgb(244, 245, 246);
+  margin: 0px
+}
+
+.subscribe-imgs {
+  position: relative;
+  height: 241px;
+}
+
+.subs-img-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.subs-img-2 {
+  position: absolute;
+  top: 14px;
+  left: 80px;
+}
+
+.subscribe-form h5, .newsletter-form h5 {
+    font-size: 24px;
+}
+
+.subscribe-form p {
+    font-size: 15px;
+    font-family: helvetica, arial;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.subscribe-form button {
+    background-color: #f72210;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+
+.newsletter-last {
+    padding: 0;
+}
+
+.newsletter-img {
+    background: url(assets/images/starting5-homepage.png) center/contain;
+    background-size: cover;
+  width: 100%;
+  padding-bottom: 62%;
+}
+
+.newsletter-form {
+    padding: 30px;
+    height: 100%;
+}
+
