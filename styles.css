@@ -527,3 +527,35 @@ body {
     height: 100%;
 }
 
+.space-between {
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgb(197, 193, 193);
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #666;
+}
+
+.footer-ul {
+  margin: 0 0 12px;
+}
+
+.footer-ul li{
+  list-style: none;
+  padding-right: 13px;
+  font-size: 20px;
+}
+
+.circle {
+  background-color: #666;
+  color: #fff;
+  padding: 3px;
+}
+
+.grey-icon {
+  color: #666;
+}
+
