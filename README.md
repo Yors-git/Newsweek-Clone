@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://yors-git.github.io/Newsweek-clone/)
+[Live Demo Link](https://yors-git.github.io/Newsweek-Clone/)
 
 
 ## Authors
