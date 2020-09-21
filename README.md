@@ -13,7 +13,7 @@
 
 - HTML
 - CSS
--Bootstrap 4
+- Bootstrap 4
 - VSCode
 
 ## Live Demo
