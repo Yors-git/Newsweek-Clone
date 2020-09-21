@@ -13,6 +13,16 @@ body {
   margin: 0 auto;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
 .flex {
   display: flex;
 }
@@ -180,6 +190,10 @@ body {
 .card-text {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-turn-card:hover {
+  text-decoration: none;
 }
 
 .font-w-700 {
@@ -463,17 +477,8 @@ body {
 }
 
 .subs1 {
-    padding: 0;
-}
-
-.subs1 h5 {
-    font-size: 16px;
-}
-
-.subscribe-last {
   padding: 30px;
   background-color: rgb(244, 245, 246);
-  margin: 0px
 }
 
 .subscribe-imgs {
@@ -489,42 +494,52 @@ body {
 
 .subs-img-2 {
   position: absolute;
-  top: 14px;
-  left: 80px;
+  top: 5%;
+  left: 22%;
 }
 
 .subscribe-form h5, .newsletter-form h5 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .subscribe-form p {
-    font-size: 15px;
-    font-family: helvetica, arial;
-    font-weight: lighter;
-    text-align: left;
+  font-size: 15px;
+  font-family: helvetica, arial;
+  font-weight: lighter;
+  text-align: left;
 }
 
 .subscribe-form button {
-    background-color: #f72210;
-    border-radius: 3px;
-    color: white;
-    font-size: 18px;
+  background-color: #f72210;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
 }
 
-.newsletter-last {
-    padding: 0;
+.newsletter {
+  border: 1px solid rgb(235, 235, 235);
+  height: 303px;
 }
 
 .newsletter-img {
-    background: url(assets/images/starting5-homepage.png) center/contain;
-    background-size: cover;
-  width: 100%;
-  padding-bottom: 62%;
+  background: url(assets/images/starting5-homepage.png) center/contain;
+  background-size: cover;
+  padding-bottom: 18.9rem;
+  overflow: hidden;
 }
 
 .newsletter-form {
-    padding: 30px;
-    height: 100%;
+  padding: 20px;
+  height: 100%;
+}
+
+.subscribe-form .sign-up-btn {
+  width: 100%;
+}
+
+/* footer section */
+.footer-logo {
+  max-width: 236px;
 }
 
 .space-between {
