@@ -2,7 +2,7 @@
 
 > In this project we created a Newsweek clone page using Bootstrap 4. It was a good experience to learn to use Bootstrap Grid and using different components like Media objects, forms, and cards, we learnt how to configure them with bootstrap classes for the margins padding and flex positioning.
 
-![screenshot](assets/images/Screenshot.png)
+![screenshot](assets/images/Screen.PNG)
 
 # Project Requirements
 - Remember to use Bootstrap CSS classes wherever it is possible - this is the main point of this project.
