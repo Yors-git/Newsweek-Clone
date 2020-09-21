@@ -116,6 +116,19 @@ a:hover {
   padding-top: 15px;
 }
 
+.footer-ul li {
+  list-style: none;
+  padding-right: 13px;
+  font-size: 20px;
+}
+
+.editions li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  margin-right: 10px;
+  padding: 5px 0;
+}
+
 .white-nav-ul li:nth-child(1) {
   border-left: none;
 }
@@ -324,9 +337,8 @@ a:hover {
 .n-red-icon {
   height: 28px;
   width: 28px;
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
-    center/contain;
-  background-repeat: no-repeat;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg");
+  background-size: contain;
   background-color: #f72210;
 }
 
@@ -387,7 +399,8 @@ a:hover {
 .in-the-mag-img3,
 .in-the-mag-img4,
 .in-the-mag-img5,
-.in-the-mag-img6 {
+.in-the-mag-img6,
+.n-red-icon {
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -488,8 +501,8 @@ a:hover {
 
 .subs-img-1 {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
 .subs-img-2 {
@@ -498,13 +511,14 @@ a:hover {
   left: 22%;
 }
 
-.subscribe-form h5, .newsletter-form h5 {
+.subscribe-form h5,
+.newsletter-form h5 {
   font-size: 24px;
 }
 
 .subscribe-form p {
   font-size: 15px;
-  font-family: helvetica, arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align: left;
 }
@@ -559,12 +573,6 @@ a:hover {
   line-height: 1;
 }
 
-.footer-ul li {
-  list-style: none;
-  padding-right: 13px;
-  font-size: 20px;
-}
-
 .grey-icon {
   color: #666;
 }
@@ -577,13 +585,6 @@ a:hover {
   margin: 0;
 }
 
-.editions li {
-  font-family: Arial, Helvetica, sans-serif;
-  list-style: none;
-  margin-right: 10px;
-  padding: 5px 0;
-}
-
 .li-border {
   border-right: 1px solid #d9d9d9;
   padding-right: 10px;
@@ -593,4 +594,3 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: #666;
 }
-
